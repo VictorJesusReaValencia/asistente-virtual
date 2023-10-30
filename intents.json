@@ -1,83 +1,85 @@
 {
   "intents": [
     {
-      "tag": "greeting",
+      "tag": "saludo",
       "patterns": [
-        "Hi",
+        "Hola",
         "Hey",
-        "How are you",
-        "Is anyone there?",
-        "Hello",
-        "Good day"
+        "¿Cómo estás?",
+        "¿Hay alguien ahí?",
+        "ola",
+        "Buen día"
       ],
       "responses": [
-        "Hey :-)",
-        "Hello, thanks for visiting",
-        "Hi there, what can I do for you?",
-        "Hi there, how can I help?"
+        "¡Hola! :-)",
+        "Hola, ¿en qué puedo ayudarte?",
+        "Hola, ¿cómo puedo ayudarte?"
       ]
     },
     {
-      "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye"],
+      "tag": "despedida",
+      "patterns": ["Adiós", "Hasta luego", "Chao", "adios"],
       "responses": [
-        "See you later, thanks for visiting",
-        "Have a nice day",
-        "Bye! Come back again soon."
+        "Hasta luego, gracias por visitar",
+        "Que tengas un buen día",
+        "¡Adiós! ¡Vuelve pronto!"
       ]
     },
     {
-      "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      "tag": "gracias",
+      "patterns": ["Gracias", "¡Gracias!", "¡Eso es útil!", "¡Muchas gracias!"],
+      "responses": ["¡Encantado de ayudar!", "Es un placer"]
     },
     {
-      "tag": "items",
+      "tag": "productos",
       "patterns": [
-        "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
+        "¿Qué productos tienes?",
+        "¿Qué tipos de productos hay?",
+        "¿Qué vendes?"
       ],
       "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
+        "Vendemos café y té",
+        "Tenemos café y té"
       ]
     },
     {
-      "tag": "payments",
+      "tag": "pagos",
       "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
+        "¿Aceptan tarjetas de crédito?",
+        "¿Aceptan Mastercard?",
+        "¿Puedo pagar con Paypal?",
+        "¿Solo efectivo?"
       ],
       "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
+        "Aceptamos VISA, Mastercard y Paypal",
+        "Aceptamos la mayoría de tarjetas de crédito importantes y Paypal"
       ]
     },
     {
-      "tag": "delivery",
+      "tag": "entrega",
       "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
+        "¿Cuánto tarda la entrega?",
+        "¿Cuánto tiempo lleva el envío?",
+        "¿Cuándo recibo mi entrega?"
       ],
       "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
+        "La entrega tarda de 2 a 4 días",
+        "El envío tarda de 2 a 4 días"
       ]
     },
     {
-      "tag": "funny",
+      "tag": "servicio",
       "patterns": [
-        "Tell me a joke!",
-        "Tell me something funny!",
-        "Do you know a joke?"
+        "servicio social",
+        "Servicio social",
+        "practicas",
+        "profesionales",
+        "Practicas",
+        "practicas"
       ],
       "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
+        "Requisitos: blah blah blah",
+        "Puedes Consultar mas informacion con benito camelo"
       ]
     }
   ]
