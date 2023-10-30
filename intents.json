@@ -72,14 +72,10 @@
       "patterns": [
         "servicio social",
         "Servicio social",
-        "practicas",
-        "profesionales",
-        "Practicas",
-        "practicas"
+        "Social"
       ],
       "responses": [
-        "Requisitos: blah blah blah",
-        "Puedes Consultar mas informacion con benito camelo"
+        "Puedes consultar toda la información sobre el servicio social en el siguiente enlace: https://uae.uan.mx/es/servicio-social"
       ]
     }
   ]
