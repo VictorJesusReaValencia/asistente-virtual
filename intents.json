@@ -18,7 +18,7 @@
     },
     {
       "tag": "despedida",
-      "patterns": ["Adiós", "Hasta luego", "Chao", "adios"],
+      "patterns": ["Adiós", "Hasta luego", "Chao", "adios", "muy bien", "Bien", "Muy"],
       "responses": [
         "Hasta luego, gracias por visitar",
         "Que tengas un buen día",
@@ -31,43 +31,6 @@
       "responses": ["¡Encantado de ayudar!", "Es un placer"]
     },
     {
-      "tag": "productos",
-      "patterns": [
-        "¿Qué productos tienes?",
-        "¿Qué tipos de productos hay?",
-        "¿Qué vendes?"
-      ],
-      "responses": [
-        "Vendemos café y té",
-        "Tenemos café y té"
-      ]
-    },
-    {
-      "tag": "pagos",
-      "patterns": [
-        "¿Aceptan tarjetas de crédito?",
-        "¿Aceptan Mastercard?",
-        "¿Puedo pagar con Paypal?",
-        "¿Solo efectivo?"
-      ],
-      "responses": [
-        "Aceptamos VISA, Mastercard y Paypal",
-        "Aceptamos la mayoría de tarjetas de crédito importantes y Paypal"
-      ]
-    },
-    {
-      "tag": "entrega",
-      "patterns": [
-        "¿Cuánto tarda la entrega?",
-        "¿Cuánto tiempo lleva el envío?",
-        "¿Cuándo recibo mi entrega?"
-      ],
-      "responses": [
-        "La entrega tarda de 2 a 4 días",
-        "El envío tarda de 2 a 4 días"
-      ]
-    },
-    {
       "tag": "servicio",
       "patterns": [
         "servicio social",
@@ -76,6 +39,17 @@
       ],
       "responses": [
         "Puedes consultar toda la información sobre el servicio social en el siguiente enlace: https://uae.uan.mx/es/servicio-social"
+      ]
+    },
+    {
+      "tag": "ok",
+      "patterns": [
+        "ok",
+        "Ok"
+      ],
+      "responses": [
+        "¡Perfecto!",
+        "¿Alguna otra duda?"
       ]
     }
   ]
